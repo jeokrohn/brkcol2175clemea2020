@@ -7,7 +7,7 @@ RUN install -v -D ngrok /bin/ngrok && rm -f ngrok
 
 ADD requirements.txt .
 
-RUN pip install -r requirements.txt && \
+RUN pip install --no-cache-dir -r requirements.txt && \
     rm -f requirements.txt
 
 ADD Notebook/*.ipynb work/Notebook/
