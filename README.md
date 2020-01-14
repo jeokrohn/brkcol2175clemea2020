@@ -33,14 +33,13 @@ Where:
 
 That should give you an output similar to this:
 ```
-[I 06:55:10.156 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
-[W 06:55:10.213 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
-[I 06:55:10.226 NotebookApp] JupyterLab alpha preview extension loaded from /opt/conda/lib/python3.5/site-packages/jupyterlab
-[I 06:55:10.230 NotebookApp] Serving notebooks from local directory: /home/jovyan/work/Notebook
-[I 06:55:10.230 NotebookApp] 0 active kernels 
-[I 06:55:10.230 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
-[I 06:55:10.230 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-
+[I 11:34:43.490 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 11:34:44.054 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 11:34:44.054 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 11:34:44.059 NotebookApp] Serving notebooks from local directory: /home/jovyan/work/Notebook
+[I 11:34:44.060 NotebookApp] The Jupyter Notebook is running at:
+[I 11:34:44.060 NotebookApp] http://ccf312f3c029:8888/
+[I 11:34:44.060 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 Now point your browser to http://localhost:8888 and you should be able to open the live demo notebooks
 
