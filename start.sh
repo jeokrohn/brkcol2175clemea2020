@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#
 docker run -it --rm --name jupyter -p 8890:8888 \
     -e WX_CLIENT_SECRET="$WX_CLIENT_SECRET" \
     -e BOT_ACCESS_TOKEN="$BOT_ACCESS_TOKEN" \
