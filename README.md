@@ -20,7 +20,14 @@ To start the notebook server execute this command:
 docker run -it --rm --name jupyter -p 8888:8888 brkcol2175clemea2020
 ```
 
-Where:
+If you don't want to build your own image you can also just pull and execute the image I prepared:
+```
+docker run -it --rm --name jupyter -p 8888:8888 jeokrohn/brkcol2175clemea2020
+```
+
+When executed for the 1st time Docker will pull the image from hub.docker.com and then start a container based off this image.  
+
+The options used in both commands:
 > -it : requests an interactive console
 
 > --rm : makes sure that the docker container that gets created will be automatically removed when execution finishes
